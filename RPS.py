@@ -1,5 +1,9 @@
 # The example function kept track of the opponent's history and played whatever the opponent played two plays ago. It is not a good player so I changed the code to pass the challenge.
 # Keep track of patterns in the opponent's history and play whatever the opponent is most likely to play based on their previous playing history.
+# Mahim Al Muntashir Billah
+# BSc in Computer Science and Technology
+# Nantong University, China.
+
 def player(prev_play, opponent_history=[]):
     opponent_history.append(prev_play)
     
